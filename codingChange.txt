@@ -1,0 +1,88 @@
+
+                  Conditions:                    
+
+/*In this Challenge we'll create a function that will whether a person is eligible to get a discount or not.
+Only people over 50 who live in postal code 1234 are eligible to get a discount.
+Create a function called check_eligibility that takes two parameters: age, and postalCode.
+If the person is eligible for a discount return true. If the person is not eligible, the function has to return false.
+(postal code is a number, not a string)*/
+
+My solution:
+
+ var age =50;
+ var postalCode= 1234;
+ 
+function check_eligibility(age,postalCode){
+    
+    if(age >50 && postalCode== 1234){
+        return true;
+    
+    }
+else {
+    return false;
+    }
+}
+console.log(check_eligibility);
+==========================================================================================================
+
+
+                     Functions:
+          My solution:
+
+Create a function called calculate_total that takes two parameters:
+"num_items" to represent the number of items, and "price" to represent the price per item.
+The function has to multiply these two parameters and add 100 to the total (for shipping costs).
+
+
+function calculate_total(num_items, price){
+    var  a = num_items * price + 100;
+    return a;
+}
+console.log(calculate_total(a));
+========================================================================================================
+
+            Traversing an array of object
+
+var users = [
+    {username: 'asdfasdf', credits: 150},
+    {username: 'asasdfdf', credits: 510},
+    {username: 'asdasdffasdf', credits: 11},
+    {username: 'weewrwe', credits: 0},
+    {username: 'werwer', credits: 120},
+    {username: 'sdfsdf', credits: 130},
+    {username: 'dfgdfg', credits: 0},
+    {username: 'dfgdfg', credits: 510},
+    {username: '4564564', credits: 110},
+];
+
+//Iterate through the array using a for loop and add 10 credits to all users.
+
+
+var i;
+for(i=0; i<users.length;i++){
+  users[i].credits=users[i].credits+10;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
